@@ -17,4 +17,4 @@ jobs:
         uses: golangci/golangci-lint-action@v2
         with:
           version: v1.29
-          working-directory: task88a
+          working-directory: https://github.com/marchuk-ya/task88a
