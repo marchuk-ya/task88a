@@ -13,7 +13,7 @@ func TestReverse(t *testing.T) {
 		{"12345", true},
 		{"0", false},
 		{"111", true},
-		{"-1", true},
+		{"-1", false},
 	}
 
 	for _, tt := range tests {
